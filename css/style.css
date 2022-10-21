@@ -1,0 +1,93 @@
+/* Fonts */
+
+@font-face 
+{
+    font-family: roboto;
+    src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face 
+{
+    font-family: roboto bold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+body
+{
+    background-color: aliceblue;
+}
+
+/* Navigation Bar */
+
+#navbar
+{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightslategrey;
+    position: fixed;
+    left: 0%;
+    top: -1.7%;
+    width: 100%;
+    z-index: 900;
+    max-width: inherit;
+
+}
+
+#navbar-div
+{
+    padding-bottom: 60px;
+    max-width: 1050px;
+    margin: auto;
+}
+
+.navbar-item
+{
+    float: left;
+}
+
+.navbar-link
+{
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(234, 236, 255);
+    border: 1px solid rgb(255, 255, 255, 0);
+}
+
+.navbar-item .navbar-link:hover
+{
+    background-color: aliceblue;
+    color:black;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.active
+{
+    background-color: rgb(0, 83, 0);
+}
+
+#about
+{
+    float: right;
+}
+
+/* Content */
+
+.header 
+{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.article-body
+{
+    background-color: rgb(131, 41, 6);
+    margin: auto;
+    width: 55%
+}
