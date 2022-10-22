@@ -5,40 +5,40 @@ h1
 
 h2
 {
-    font-size:36px
+    font-size:36px;
 }
 
 h3
 {
-    font-size:24px
+    font-size:24px;
 }
 
 h4
 {
-    font-size:20px
+    font-size:20px;
 }
 
 h5
 {
-    font-size:18px
+    font-size:18px;
 }
 
 h6
 {
-    font-size:16px
+    font-size:16px;
 }
 
 h1, h2, h3, h4, h5
 {
-    font-family: 'Gill Sans MT';
+    font-family: 'roboto';
+    font-weight: bolder;
     color:slategrey;
-    margin-left: 45%;
-    position: relative;
 }
 
 p
 {
-    font-size: 15px;
+    font-size: 16px;
     font-family:'roboto';
     line-height: 1.4;
 }
+
