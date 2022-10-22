@@ -33,12 +33,31 @@ h1, h2, h3, h4, h5
     font-family: 'roboto';
     font-weight: bolder;
     color:slategrey;
+    margin: 0px;
+    text-align: center;
+}
+
+.heading1, .heading2, .heading3, .heading4, .heading5
+{
+    margin: 5px;
 }
 
 p
 {
     font-size: 16px;
     font-family:'roboto';
+    width: 80%;
     line-height: 1.4;
+    max-width: 1050px;
+    margin: auto;
 }
 
+.paragraph
+{
+    margin: 5px;
+}
+
+.footer
+{
+    font-family: 'roboto';
+}
