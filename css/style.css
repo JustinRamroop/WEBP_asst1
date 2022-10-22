@@ -1,3 +1,20 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+/* Background */
+
+#background
+{
+    background-color: palegreen;
+}
+
+body
+{
+    background-color: aliceblue;
+}
+
 /* Fonts */
 
 @font-face 
@@ -12,11 +29,6 @@
     src: url(fonts/Roboto-Bold.ttf);
 }
 
-body
-{
-    background-color: aliceblue;
-}
-
 /* Navigation Bar */
 
 #navbar
@@ -26,17 +38,14 @@ body
     overflow: hidden;
     background-color:lightslategrey;
     position: fixed;
-    left: 0%;
-    top: -1.7%;
+    margin-top: -1px;
     width: 100%;
     z-index: 900;
     max-width: inherit;
-
 }
 
 #navbar-div
 {
-    padding-bottom: 60px;
     max-width: 1050px;
     margin: auto;
 }
@@ -51,7 +60,6 @@ body
     display: block;
     padding: 10px 20px;
     text-align: center;
-    position: relative;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(234, 236, 255);
@@ -76,18 +84,30 @@ body
     float: right;
 }
 
-/* Content */
+/* Header */
 
 .header 
 {
-    background-color: #f1f1f1;
+    background-color: #b20bff;
     padding: 20px;
     text-align: center;
+    max-width: 1050px;
+    margin: auto;
+    margin-top: -1.2%;
+}
+
+/* Content */
+
+.article-background
+{
+    background-color: cyan;
+    width: 1050px;
+    margin: auto;
 }
 
 .article-body
 {
     background-color: rgb(131, 41, 6);
     margin: auto;
-    width: 55%
+    width: 80%;
 }
