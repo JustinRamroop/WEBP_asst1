@@ -31,7 +31,6 @@ h6
 h1, h2, h3, h4, h5
 {
     font-family: 'roboto';
-    font-weight: bolder;
     color:slategrey;
     margin: 0px;
     text-align: center;
@@ -60,4 +59,16 @@ p
 .footer
 {
     font-family: 'roboto';
+}
+
+#header-title
+{
+    padding: 20px 20px;
+}
+
+#header-subtitle
+{
+    text-align: right;
+    color: black;
+    font-family:'roboto light';
 }
