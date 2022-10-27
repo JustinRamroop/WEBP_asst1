@@ -5,6 +5,7 @@ h1
 
 h2
 {
+    padding: 20px;
     font-size:36px;
 }
 
@@ -51,11 +52,35 @@ p
     margin: auto;
 }
 
-a, .nav-link
+.source-link
+{
+    color:black;
+    text-decoration-line: underline;
+    font-size: 16px;
+    font-family: 'roboto';
+}
+
+.source-notlink
+{
+    color:black;
+    text-decoration-line: none;
+    font-size: 16px;
+    font-family: 'roboto';
+}
+
+.source-list
+{
+    width: 80%;
+    line-height: 1.4;
+    max-width: 1050px;
+    margin: auto;
+}
+
+.nav-link
 {
     color: #ffffff;
     font-family: 'roboto light';
-    font-size: 20px;
+    font-size: 24px;
     text-decoration: none;
 }
 
@@ -73,6 +98,7 @@ a, .nav-link
 
 #header-title
 {
+    color:rgb(141, 17, 42);
     padding: 20px 20px;
 }
 
