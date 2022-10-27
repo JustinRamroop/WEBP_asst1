@@ -52,6 +52,11 @@ p
     margin: auto;
 }
 
+.navbar-link
+{
+    font-size: 20px;
+}
+
 .source-link
 {
     color:black;
@@ -105,6 +110,6 @@ p
 #header-subtitle
 {
     text-align: right;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family:'roboto light';
 }
